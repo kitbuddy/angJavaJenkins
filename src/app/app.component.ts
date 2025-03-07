@@ -1,9 +1,7 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import {ButtonModule} from 'primeng/button';
 import {Checkbox} from 'primeng/checkbox';
 import {FormsModule} from '@angular/forms';
-import {Image} from 'primeng/image';
 import { GalleriaModule } from 'primeng/galleria';
 
 @Component({
