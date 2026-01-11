@@ -1,0 +1,17 @@
+<p>data-table works!</p>
+<div class="content" style="width: 100%; height: 100%;">
+  <!-- The AG Grid component, with Dimensions, CSS Theme, Row Data, and Column Definition -->
+  <ag-grid-angular
+    [theme]="themeQuartz.withPart(colorSchemeDarkWarm)"
+    class="ag-theme-balham-dark"
+    style="width: 100%; height: 100%;"
+    [rowData]="rowData"
+    [columnDefs]="colDefs"
+    [defaultColDef]="defaultColDef"
+    [gridOptions]="gridOptions"
+    [animateRows]="true"
+    [cacheQuickFilter]="true"
+    (gridReady)="onGridReady($event)"
+    suppressSizeToFit="true"
+  />
+</div>
